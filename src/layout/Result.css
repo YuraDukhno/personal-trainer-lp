@@ -1,0 +1,30 @@
+.result {
+  padding: 100px 0 10px 0;
+}
+
+.result_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-title {
+  color: rgb(91, 67, 208);
+  font-size: 32px;
+  font-family: Montserrat;
+}
+
+.result-text {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 62px;
+  font-family: Ubuntu;
+  color: rgb(37, 40, 48);
+  font-weight: Bold;
+}
+
+.result-bottom-line {
+  background-color: rgb(91, 67, 208);
+  width: 50px;
+  height: 2px;
+}

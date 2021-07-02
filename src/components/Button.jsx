@@ -1,5 +1,6 @@
 import React from "react";
+import "./Button.css";
 
-export default function Button(text) {
-  return <div>contact me</div>;
+export default function Button(props) {
+  return <div className="button">{props.text}</div>;
 }

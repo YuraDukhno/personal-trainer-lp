@@ -1,22 +1,3 @@
-.practices {
-  background-image: url("../assets/svg/practices.svg");
-  background-repeat: no-repeat;
-  padding-bottom: 30px;
-}
-
-.practices__container {
-  padding: 0 15px;
-}
-
-.practices_list {
-  max-width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .practices-item {
   position: relative;
   background-color: rgb(89, 64, 211);
@@ -67,10 +48,4 @@
 .practices-item p {
   font-size: 15px;
   margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 1110px) {
-  .practices-item {
-    flex-basis: 450px;
-  }
 }

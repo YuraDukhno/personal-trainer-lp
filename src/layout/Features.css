@@ -1,0 +1,35 @@
+.features-list {
+  display: flex;
+}
+
+.features-item {
+  flex-basis: 360px;
+}
+
+.item-title span {
+  font-size: 24px;
+  font-family: Ubuntu;
+}
+
+.item-text span {
+  font-size: 15px;
+  font-family: Ubuntu;
+}
+
+.one {
+  background-image: url(http://bloxthemes.net/landing-pages/uploads/images/blox_page_builder/4_4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.two {
+  background-image: url(http://bloxthemes.net/landing-pages/uploads/images/blox_page_builder/6_4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.three {
+  background-image: url(http://bloxthemes.net/landing-pages/uploads/images/blox_page_builder/8_2.jpg);
+  background-position: center;
+  background-size: cover;
+}

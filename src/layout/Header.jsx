@@ -1,6 +1,6 @@
 import React from "react";
 import "../layout/Header.css";
-// import Button from "../components/Button";
+import Button from "../components/Button";
 
 export default function Header() {
   return (
@@ -19,7 +19,7 @@ export default function Header() {
               <br /> Ends July 2021
             </p>
             <div className="introduction__button">
-              <div className="button">contact me</div>
+              <Button text={"contact me"} />
             </div>
           </div>
           <div className="introduction__image">

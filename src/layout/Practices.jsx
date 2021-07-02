@@ -6,7 +6,7 @@ export default function Practices() {
     <div className="practices">
       <div className="practices__container container">
         <ul className="practices_list">
-          <li className="practices-item">
+          <li className="practices-item item-one">
             <span>1</span>
             <h3>Cardio Training</h3>
             <p>
@@ -14,7 +14,7 @@ export default function Practices() {
               purus, sagittis quis augue et, dictum rhoncus ante.
             </p>
           </li>
-          <li className="practices-item">
+          <li className="practices-item item-two">
             <span>2</span>
             <h3>
               Body
@@ -25,7 +25,7 @@ export default function Practices() {
               purus, sagittis quis augue et, dictum rhoncus ante.
             </p>
           </li>
-          <li className="practices-item">
+          <li className="practices-item item-three">
             <span>3</span>
             <h3>
               Group
@@ -36,7 +36,7 @@ export default function Practices() {
               purus, sagittis quis augue et, dictum rhoncus ante.
             </p>
           </li>
-          <li className="practices-item">
+          <li className="practices-item item-four">
             <span>4</span>
             <h3>
               Kick

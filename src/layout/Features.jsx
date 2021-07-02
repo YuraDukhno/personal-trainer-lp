@@ -22,7 +22,7 @@ export default function Features() {
           </li>
           <li className="features-item two">
             <div className="item-icon">
-              <i className="fa fa-group"></i>
+              <img src="../assets/svg/group.svg" alt="" />
             </div>
             <div className="item-title">
               <span>Versatile Activity</span>
@@ -36,7 +36,7 @@ export default function Features() {
           </li>
           <li className="features-item three">
             <div className="item-icon">
-              <i className="fa fa-deviantart"></i>
+              <img src="../assets/svg/gear.svg" alt="" />
             </div>
             <div className="item-title">
               <span>Best Gear</span>

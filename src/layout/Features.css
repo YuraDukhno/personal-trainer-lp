@@ -1,9 +1,24 @@
+.features {
+  padding: 30px 0 30px 0;
+}
+
 .features-list {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .features-item {
   flex-basis: 360px;
+  padding: 30px;
+}
+
+.item-icon {
+  height: 80px;
+}
+
+.item-title {
+  margin-bottom: 14px;
 }
 
 .item-title span {
@@ -32,4 +47,11 @@
   background-image: url(http://bloxthemes.net/landing-pages/uploads/images/blox_page_builder/8_2.jpg);
   background-position: center;
   background-size: cover;
+}
+
+@media only screen and (max-width: 1080px) {
+  .features-item {
+    flex-basis: 560px;
+    margin-bottom: 15px;
+  }
 }

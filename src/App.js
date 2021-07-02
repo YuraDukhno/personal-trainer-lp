@@ -4,6 +4,7 @@ import Header from './layout/Header'
 import Practices from "./layout/Practices";
 import Result from "./layout/Result"
 import Features from "./layout/Features";
+import Contact from "./layout/Contact"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Practices />
       <Result />
       <Features />
+      <Contact />
     </div>
   );
 }

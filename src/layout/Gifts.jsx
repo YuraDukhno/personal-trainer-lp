@@ -54,7 +54,7 @@ export default function Gifts() {
           </div>
           <div className="right-column_block">
             <div className="right-icon">
-              <i class="fas fa-table-tennis"></i>
+              <i class="fas fa-football-ball"></i>
             </div>
             <div className="right-title">Amazing Gifts</div>
             <div className="right-text">

@@ -1,0 +1,95 @@
+.timer {
+  background-color: burlywood;
+}
+
+.timer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-title {
+  font-size: 62px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.timer-text {
+  font-size: 32px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+
+.timer-action {
+  font-size: 21px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  /* margin-top: 10px; */
+  padding-bottom: 40px;
+}
+
+.timer-action a {
+  color: white;
+  border: 3px solid white;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.circles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.circle__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px 15px;
+}
+
+.circle {
+  color: rgb(255 255 255);
+  width: 125px;
+  height: 125px;
+  position: relative;
+  border-radius: 100%;
+  border: rgb(255 255 255) 3px solid;
+  margin-bottom: 20px;
+  /* display: inline-block; */
+}
+
+.time {
+  font-size: 15px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  vertical-align: baseline;
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  margin: -10px;
+}
+
+.numbers {
+  font-size: 50px;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  vertical-align: baseline;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  margin: -10px;
+  /* padding: 0 auto; */
+}

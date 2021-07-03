@@ -6,6 +6,7 @@ import Result from "./layout/Result"
 import Features from "./layout/Features";
 import Contact from "./layout/Contact"
 import Gifts from "./layout/Gifts";
+import Timer from "./layout/Timer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <Contact />
       <Gifts />
+      <Timer />
     </div>
   );
 }

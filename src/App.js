@@ -5,6 +5,7 @@ import Practices from "./layout/Practices";
 import Result from "./layout/Result"
 import Features from "./layout/Features";
 import Contact from "./layout/Contact"
+import Gifts from "./layout/Gifts";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Result />
       <Features />
       <Contact />
+      <Gifts />
     </div>
   );
 }

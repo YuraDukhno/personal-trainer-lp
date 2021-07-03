@@ -8,7 +8,7 @@ export default function Features() {
         <ul className="features-list">
           <li className="features-item one">
             <div className="item-icon">
-              <img src="../assets/svg/done.svg" alt="" />
+              <i class="fa fa-check-circle"></i>
             </div>
             <div className="item-title">
               <span>All Week</span>
@@ -22,7 +22,7 @@ export default function Features() {
           </li>
           <li className="features-item two">
             <div className="item-icon">
-              <img src="../assets/svg/group.svg" alt="" />
+              <i class="fa fa-group"></i>
             </div>
             <div className="item-title">
               <span>Versatile Activity</span>
@@ -36,7 +36,7 @@ export default function Features() {
           </li>
           <li className="features-item three">
             <div className="item-icon">
-              <img src="../assets/svg/gear.svg" alt="" />
+              <i class="fa fa-deviantart"></i>
             </div>
             <div className="item-title">
               <span>Best Gear</span>

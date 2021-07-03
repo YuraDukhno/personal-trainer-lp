@@ -3,14 +3,100 @@
 
 .gifts__container {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   color: black;
+  flex-wrap: wrap;
+}
+
+.gifts-column {
+  flex-basis: 40%;
+  flex-basis: 400px;
+}
+
+.left-column {
+  padding: 20px;
 }
 
 .left-title {
   font-size: 48px;
+  font-size: calc(26px + 20 * (100vw / 1920));
   line-height: 1.2em;
   font-family: Ubuntu;
+  padding-bottom: 10px;
 }
 
 .left-title span {
+  font-weight: bold;
+}
+
+.left-bottom-line {
+  background-color: rgb(91, 67, 208);
+  width: 50px;
+  height: 2px;
+  margin: 30px 0 30px 0;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-text span {
+  font-size: 16px;
+  font-family: Montserrat;
+  margin-bottom: 15px;
+}
+
+.right-column {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  flex-basis: 585px;
+}
+
+@media only screen and (max-width: 984px) {
+  .left-column {
+    margin-bottom: 50px;
+    flex-basis: 585px;
+  }
+
+  .right-column {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .right-column_block {
+    flex-basis: 346px;
+  }
+}
+
+.right-column_block {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-basis: 200px;
+  margin: 0 40px 0 40px;
+}
+
+.right-icon {
+  font-size: 80px;
+  font-size: calc(40px + 40 * (100vw / 1920));
+  color: rgb(89, 64, 211);
+}
+
+.right-title {
+  font-size: 32px;
+  font-size: calc(26px + 6 * (100vw / 1920));
+  font-family: Ubuntu;
+  font-weight: bold;
+  line-height: 1em;
+  margin-bottom: 15px;
+}
+
+.right-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-family: Montserrat;
 }

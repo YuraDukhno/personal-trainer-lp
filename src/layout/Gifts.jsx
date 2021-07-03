@@ -5,7 +5,7 @@ export default function Gifts() {
   return (
     <div className="gifts">
       <div className="gifts__container container">
-        <div className="left-column">
+        <div className="left-column gifts-column">
           <div className="left-title">
             <span>Come Train With Me and You Will See Results In 10 Day!</span>
           </div>
@@ -21,44 +21,46 @@ export default function Gifts() {
             </span>
           </div>
         </div>
-        <div className="right-column">
-          <div className="right-icon">
-            <i class="fas fa-dumbbell"></i>
+        <div className="right-column gifts-column">
+          <div className="right-column_block">
+            <div className="right-icon">
+              <i class="fas fa-dumbbell"></i>
+            </div>
+            <div className="right-title">Amazing Gifts</div>
+            <div className="right-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              rutrum in orci sit amet rutrum.
+            </div>
           </div>
-          <div className="right-title">Amazing Gifts</div>
-          <div className="right-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum
-            in orci sit amet rutrum.
+          <div className="right-column_block">
+            <div className="right-icon">
+              <i class="fas fa-volleyball-ball"></i>
+            </div>
+            <div className="right-title">Amazing Gifts</div>
+            <div className="right-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              rutrum in orci sit amet rutrum.
+            </div>
           </div>
-        </div>
-        <div className="right-column">
-          <div className="right-icon">
-            <i class="fas fa-volleyball-ball"></i>
+          <div className="right-column_block">
+            <div className="right-icon">
+              <i class="fas fa-table-tennis"></i>
+            </div>
+            <div className="right-title">Amazing Gifts</div>
+            <div className="right-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              rutrum in orci sit amet rutrum.
+            </div>
           </div>
-          <div className="right-title">Amazing Gifts</div>
-          <div className="right-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum
-            in orci sit amet rutrum.
-          </div>
-        </div>
-        <div className="right-column">
-          <div className="right-icon">
-            <i class="fas fa-table-tennis"></i>
-          </div>
-          <div className="right-title">Amazing Gifts</div>
-          <div className="right-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum
-            in orci sit amet rutrum.
-          </div>
-        </div>
-        <div className="right-column">
-          <div className="right-icon">
-            <i class="fas fa-table-tennis"></i>
-          </div>
-          <div className="right-title">Amazing Gifts</div>
-          <div className="right-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum
-            in orci sit amet rutrum.
+          <div className="right-column_block">
+            <div className="right-icon">
+              <i class="fas fa-table-tennis"></i>
+            </div>
+            <div className="right-title">Amazing Gifts</div>
+            <div className="right-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              rutrum in orci sit amet rutrum.
+            </div>
           </div>
         </div>
       </div>

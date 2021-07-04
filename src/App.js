@@ -7,17 +7,23 @@ import Features from "./layout/Features";
 import Contact from "./layout/Contact"
 import Gifts from "./layout/Gifts";
 import Timer from "./layout/Timer";
+import Testimonials from "./layout/Testimonials";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Practices />
-      <Result />
+      <Result title={"Instant Results"} text={"100% Fat Burn"} />
       <Features />
       <Contact />
       <Gifts />
       <Timer />
+      <Result
+        title={"See What People Think About Us"}
+        text={"What People Say"}
+      />
+      <Testimonials />
     </div>
   );
 }

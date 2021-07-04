@@ -1,5 +1,7 @@
 .timer {
   background-image: url("../assets/svg/timer.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 170px;
 }
 
 .timer__container {
@@ -102,6 +104,11 @@
 }
 
 @media only screen and (max-width: 620px) {
+  .timer {
+    background-image: url("../assets/svg/timer-tab.svg");
+    background-repeat: no-repeat;
+  }
+
   .circle__block {
     flex-basis: 180px;
   }
@@ -113,5 +120,12 @@
   .circle {
     background-color: rgb(58, 78, 255);
     border: 3px solid rgb(255, 255, 255);
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .timer {
+    background-image: url("../assets/svg/timer-mob.svg");
+    background-repeat: no-repeat;
   }
 }

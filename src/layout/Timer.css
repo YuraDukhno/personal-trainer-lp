@@ -1,5 +1,5 @@
 .timer {
-  background-color: burlywood;
+  background-image: url("../assets/svg/timer.svg");
 }
 
 .timer__container {
@@ -9,6 +9,8 @@
 }
 
 .timer-title {
+  color: rgb(106, 86, 206);
+
   font-size: 62px;
   font-family: Ubuntu;
   font-weight: bold;
@@ -48,6 +50,12 @@
   transition: all 0.3s;
 }
 
+.timer-action a:hover {
+  background-color: white;
+  border: 3px solid rgb(106, 86, 206);
+  color: rgb(106, 86, 206);
+}
+
 .circles {
   display: flex;
   flex-wrap: wrap;
@@ -58,6 +66,7 @@
   flex-direction: column;
   align-items: center;
   margin: 8px 15px;
+  flex-basis: 120px;
 }
 
 .circle {
@@ -68,7 +77,6 @@
   border-radius: 100%;
   border: rgb(255 255 255) 3px solid;
   margin-bottom: 20px;
-  /* display: inline-block; */
 }
 
 .time {
@@ -78,8 +86,8 @@
   vertical-align: baseline;
   position: absolute;
   top: 75%;
-  left: 25%;
-  margin: -10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .numbers {
@@ -88,8 +96,22 @@
   text-transform: uppercase;
   vertical-align: baseline;
   position: absolute;
-  top: 25%;
-  left: 25%;
-  margin: -10px;
-  /* padding: 0 auto; */
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 620px) {
+  .circle__block {
+    flex-basis: 180px;
+  }
+
+  .circles {
+    justify-content: center;
+  }
+
+  .circle {
+    background-color: rgb(58, 78, 255);
+    border: 3px solid rgb(255, 255, 255);
+  }
 }

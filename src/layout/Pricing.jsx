@@ -17,13 +17,13 @@ export default function Pricing() {
                 <div className="pricing-item-title">$15</div>
                 <div className="pricing-item-subtitle">Private training</div>
               </div>
-              <div className="item-main">
+              <div className="pricing-item-main">
                 <span>Personal Trainer</span>
                 <span>2 Hours</span>
                 <span>One Month</span>
               </div>
               <div className="item__button">
-                <span>Buy Now</span>
+                <a href="">Buy Now</a>
               </div>
             </li>
             <li className="pricing-item-body">
@@ -31,13 +31,13 @@ export default function Pricing() {
                 <div className="pricing-item-title">$15</div>
                 <div className="pricing-item-subtitle">Private training</div>
               </div>
-              <div className="item-main">
+              <div className="pricing-item-main">
                 <span>Personal Trainer</span>
                 <span>2 Hours</span>
                 <span>One Month</span>
               </div>
               <div className="item__button">
-                <span>Buy Now</span>
+                <a href="">Buy Now</a>
               </div>
             </li>
             <li className="pricing-item-body">
@@ -45,13 +45,13 @@ export default function Pricing() {
                 <div className="pricing-item-title">$15</div>
                 <div className="pricing-item-subtitle">Private training</div>
               </div>
-              <div className="item-main">
+              <div className="pricing-item-main">
                 <span>Personal Trainer</span>
                 <span>2 Hours</span>
                 <span>One Month</span>
               </div>
               <div className="item__button">
-                <span>Buy Now</span>
+                <a href="">Buy Now</a>
               </div>
             </li>
           </ul>

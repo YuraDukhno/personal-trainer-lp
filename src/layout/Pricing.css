@@ -38,18 +38,30 @@
 
 .pricing-list__block {
   padding: 20px;
+  max-width: 100%;
 }
 
 .pricing-list {
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-basis: 70%;
+  padding: 20px;
 }
 
-.item-header {
+.pricing-item-body {
+  background-color: white;
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.item-header {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(62 60 68);
 }
 
 .pricing-item-title {
@@ -59,19 +71,47 @@
 
 .pricing-item-subtitle {
   font-size: 15px;
+  font-weight: bold;
   font-family: Montserrat;
+  padding-bottom: 30px;
 }
 
-.item-main {
+.pricing-item-main {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 21px;
   font-family: Ubuntu;
+  padding: 20px 15px;
+  color: rgb(138, 138, 138);
+}
+
+.pricing-item-main span {
+  border-bottom: 1px solid rgb(242, 242, 242);
+  padding: 20px 15px;
+}
+
+.pricing-item-main :last-child {
+  border: none;
 }
 
 .item__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 15px;
   font-family: Ubuntu;
-  text-align: center;
+  /* font-weight: bold; */
+  width: 200px;
+  height: 40px;
+  background-color: rgb(62, 60, 68);
+  margin: 20px 80px 35px;
+  border-radius: 100px;
+}
+
+.item__button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  line-height: 40px;
 }

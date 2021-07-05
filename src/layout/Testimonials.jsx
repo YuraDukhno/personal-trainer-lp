@@ -14,7 +14,7 @@ export default function Testimonials() {
                   alt="photo"
                 />
               </div>
-              <div className="item-text">
+              <div className="item-text-text">
                 <span>
                   Thanks for the awesome service! Waited fors than one week to
                   get my ABS super ripped!
@@ -41,7 +41,7 @@ export default function Testimonials() {
                   alt="photo"
                 />
               </div>
-              <div className="item-text">
+              <div className="item-text-text">
                 <span>
                   Thanks for the awesome service! Waited fors than one week to
                   get my ABS super ripped!
@@ -68,7 +68,7 @@ export default function Testimonials() {
                   alt="photo"
                 />
               </div>
-              <div className="item-text">
+              <div className="item-text-text">
                 <span>
                   Thanks for the awesome service! Waited fors than one week to
                   get my ABS super ripped!

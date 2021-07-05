@@ -8,6 +8,7 @@ import Contact from "./layout/Contact"
 import Gifts from "./layout/Gifts";
 import Timer from "./layout/Timer";
 import Testimonials from "./layout/Testimonials";
+import Pricing from "./layout/Pricing";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         text={"What People Say"}
       />
       <Testimonials />
+      <Pricing />
     </div>
   );
 }

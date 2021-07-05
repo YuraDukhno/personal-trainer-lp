@@ -1,5 +1,5 @@
 .testimonials {
-  padding: 30px 0 100px;
+  padding: 30px 0 30px 0px;
 }
 
 .testimonials-list {
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.item-text span {
+.item-text-text span {
   font-size: 16px;
   font-family: Ubuntu;
   color: black;

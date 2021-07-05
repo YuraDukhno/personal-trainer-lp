@@ -1,0 +1,77 @@
+.pricing {
+  background-size: cover;
+  background-image: url("../assets/svg/pricing-bg.svg");
+  padding-top: 360px;
+  padding-bottom: 450px;
+}
+
+.pricing__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-title__block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.pricing-title {
+  font-size: 62px;
+  font-family: Ubuntu;
+  /* color: rgb(57, 78, 255); */
+  margin-bottom: 20px;
+}
+
+.pricing-text {
+  font-size: 32px;
+  font-family: Ubuntu;
+}
+
+.pricing-bottom-line {
+  width: 50px;
+  height: 2px;
+  background-color: white;
+}
+
+.pricing-list__block {
+  padding: 20px;
+}
+
+.pricing-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-item-title {
+  font-size: 60px;
+  font-family: Ubuntu;
+}
+
+.pricing-item-subtitle {
+  font-size: 15px;
+  font-family: Montserrat;
+}
+
+.item-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 21px;
+  font-family: Ubuntu;
+}
+
+.item__button {
+  font-size: 15px;
+  font-family: Ubuntu;
+  text-align: center;
+}

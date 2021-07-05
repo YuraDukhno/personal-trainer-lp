@@ -5,7 +5,19 @@
 .testimonials-list {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonials-item {
+  flex-basis: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonials-item {
+    flex-basis: 320px;
+    padding-bottom: 20px;
+  }
 }
 
 .item-body {
@@ -17,8 +29,12 @@
 .item-text-text span {
   font-size: 16px;
   font-family: Ubuntu;
+  line-height: 25px;
+  font-weight: 400;
   color: black;
   padding: 15px 0;
+  text-align: center;
+  display: inline-block;
 }
 
 .item-name span {

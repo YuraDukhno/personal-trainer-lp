@@ -42,8 +42,8 @@ export default function Pricing() {
             </li>
             <li className="pricing-item-body">
               <div className="item-header">
-                <div className="pricing-item-title">$15</div>
-                <div className="pricing-item-subtitle">Private training</div>
+                <span className="pricing-item-title">$15</span>
+                <span className="pricing-item-subtitle">Private training</span>
               </div>
               <div className="pricing-item-main">
                 <span>Personal Trainer</span>

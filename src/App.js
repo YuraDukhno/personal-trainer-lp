@@ -9,6 +9,7 @@ import Gifts from "./layout/Gifts";
 import Timer from "./layout/Timer";
 import Testimonials from "./layout/Testimonials";
 import Pricing from "./layout/Pricing";
+import Footer from "./layout/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       />
       <Testimonials />
       <Pricing />
+      <Footer />
     </div>
   );
 }

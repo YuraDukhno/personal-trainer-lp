@@ -5,10 +5,10 @@ import Button from "../components/Button";
 export default function Header() {
   return (
     <div className="header">
-      <div className="container">
+      <div className="header-container container">
         <div className="introduction">
-          <div className="introduction__text">
-            <h1 className="introduction-title">
+          <div className="introduction__content">
+            <h1 className="introduction__title">
               Hello,
               <br /> My Name Is
               <br /> Roxie Pump

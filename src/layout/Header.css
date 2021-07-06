@@ -8,7 +8,7 @@
   justify-content: space-around;
 }
 
-.introduction__text {
+.introduction__content {
   padding-top: 100px;
   padding-left: 10px;
   padding-right: 10px;
@@ -16,7 +16,7 @@
   flex-direction: column;
 }
 
-.introduction-title {
+.introduction__title {
   font-size: 74px;
   font: bold;
   line-height: 1em;
@@ -24,7 +24,7 @@
   margin-bottom: 10px;
 }
 
-.introduction__text p {
+.introduction__content p {
   font-family: "Montserrat", sans-serif;
   font-size: 21px;
   line-height: 1.7em;

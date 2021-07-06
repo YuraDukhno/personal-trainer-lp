@@ -8,7 +8,7 @@
   padding: 0 15px;
 }
 
-.practices_list {
+.practices-list {
   max-width: 100%;
   height: 100%;
   display: flex;
@@ -17,7 +17,7 @@
   flex-wrap: wrap;
 }
 
-.practices-item {
+.practices__item {
   position: relative;
   background-color: rgb(89, 64, 211);
   font-family: Montserrat;
@@ -41,12 +41,12 @@
   background-color: rgb(89, 4, 181);
 }
 
-.practices-item:hover {
+.practices__item:hover {
   transform: scale(1.2);
   z-index: 3;
 }
 
-.practices-item span {
+.practices__item span {
   top: 0px;
   left: 0px;
   position: absolute;
@@ -59,18 +59,18 @@
   background-color: rgb(0 0 0 / 10%);
 }
 
-.practices-item h3 {
+.practices__item h3 {
   font-size: 28px;
   margin: 24px 0 10px 0;
 }
 
-.practices-item p {
+.practices__item p {
   font-size: 15px;
   margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 1110px) {
-  .practices-item {
+  .practices__item {
     flex-basis: 450px;
   }
 }

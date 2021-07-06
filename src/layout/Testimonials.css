@@ -13,10 +13,10 @@
   flex-basis: 300px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1300px) {
   .testimonials-item {
-    flex-basis: 320px;
-    padding-bottom: 20px;
+    flex-basis: 520px;
+    padding: 20px 90px;
   }
 }
 
